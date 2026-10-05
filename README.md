@@ -7,4 +7,3 @@ Public pages for the Clocked iOS and watchOS app, served by GitHub Pages at http
 - `terms.html`: Terms of Use (linked from the paywall and Settings)
 
 Plain HTML and CSS, no build step. Edit a page, commit, push; GitHub Pages updates within a minute.
-The app lives in a separate repository (`myboringapps/clocked`, local folder `../Clocked App`).
