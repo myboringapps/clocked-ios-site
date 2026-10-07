@@ -1,6 +1,6 @@
-# clocked-site
+# clocked-ios-site
 
-Public pages for the Clocked iOS and watchOS app, served by GitHub Pages at https://myboringapps.github.io/clocked-site/
+Public pages for the Clocked iOS and watchOS app, served by GitHub Pages at https://myboringapps.github.io/clocked-ios-site/
 
 - `privacy.html`: Privacy Policy (App Store "Privacy Policy URL")
 - `support.html`: Support (App Store "Support URL")
