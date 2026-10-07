@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Free and Pro · Clocked</title>
+<link rel="icon" href="icon-180.png">
+<link rel="apple-touch-icon" href="icon-180.png">
+<meta name="description" content="What Clocked gives you for free, forever, and what Clocked Pro adds. Pro is $1.99 a month or $19.99 a year in the US, with the first month free.">
+<link rel="stylesheet" href="style.css">
+<style>
+  .plans { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin: 24px 0 8px; }
+  .plan { background: var(--card); border-radius: 16px; padding: 18px 20px; }
+  .plan.pro { box-shadow: inset 0 0 0 1.5px var(--accent); }
+  .plan h2 { margin: 0 0 4px; font-size: 22px; }
+  .plan .price { font-size: 28px; font-weight: 700; color: var(--text); margin: 6px 0 2px; }
+  .plan .price small { font-size: 15px; font-weight: 500; color: var(--muted); }
+  .plan p { margin: 6px 0 0; font-size: 15px; }
+  .group { margin: 36px 0 0; }
+  .group h3 { font-size: 13px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); margin: 0 0 10px; }
+  .table { background: var(--card); border-radius: 16px; overflow: hidden; }
+  .head, .row { display: grid; grid-template-columns: minmax(0, 1fr) 150px 150px; gap: 12px; padding: 13px 18px; align-items: start; }
+  .head { font-size: 13px; font-weight: 700; color: var(--muted); padding-top: 12px; padding-bottom: 8px; }
+  .row { border-top: 1px solid #1E232A; }
+  .row .what b { display: block; color: var(--text); font-weight: 600; }
+  .row .what span { display: block; color: var(--muted); font-size: 14px; line-height: 1.45; margin-top: 2px; }
+  .cell { font-size: 14px; line-height: 1.45; color: #D5DAE1; }
+  .yes { color: var(--accent); font-weight: 700; }
+  .no { color: #5B626D; font-weight: 700; }
+  .k { display: none; color: var(--muted); font-size: 12px; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; }
+  .note { font-size: 14px; color: var(--muted); margin-top: 10px; }
+  @media (max-width: 560px) {
+    .plans { grid-template-columns: 1fr; }
+    .head { display: none; }
+    .row { grid-template-columns: 1fr 1fr; }
+    .row .what { grid-column: 1 / -1; }
+    .k { display: block; margin-bottom: 2px; }
+  }
+</style>
+</head>
+<body>
+<main>
+<header><svg class="mark" viewBox="0 0 100 100" aria-hidden="true"><path d="M70.03 32.9 A28.32 28.32 0 1 0 70.03 72.96" fill="none" stroke="#C6F23D" stroke-width="9.77" stroke-linecap="round"/><path d="M35.94 52.93 H64.06" fill="none" stroke="#C6F23D" stroke-width="2.34" stroke-linecap="round"/><g fill="#C6F23D"><rect x="47.27" y="13.87" width="5.47" height="6.84" rx="0.98"/><rect x="42.19" y="9.77" width="15.62" height="4.88" rx="2.44"/><rect x="34.38" y="48.87" width="2.34" height="8.12" rx="0.94"/><rect x="37.03" y="46.68" width="3.75" height="12.5" rx="1.41"/><rect x="59.22" y="46.68" width="3.75" height="12.5" rx="1.41"/><rect x="63.28" y="48.87" width="2.34" height="8.12" rx="0.94"/></g></svg><a href="./">Clocked</a></header>
+<nav><a href="./">Home</a><a href="free-and-pro.html" aria-current="page">Free and Pro</a><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms of Use</a><a href="support.html">Support</a><a href="support.html#faq">FAQ</a></nav>
+
+<h1>Free and Pro</h1>
+<p class="muted">Clocked is free for good: no time limit, no ads, no account. Clocked Pro is how you support it, and it adds a workout picked for you from every session, plans and programs, progress charts and the Apple Watch app.</p>
+
+<div class="plans">
+  <div class="plan">
+    <h2>Free</h2>
+    <div class="price">$0 <small>forever</small></div>
+    <p>Log anything, train with Guided workouts, and follow Full body A, B and C for whatever kit you have, plus 3 sessions you build yourself.</p>
+  </div>
+  <div class="plan pro">
+    <h2>Clocked Pro</h2>
+    <div class="price">$1.99 <small>a month</small></div>
+    <p>or <b style="color:var(--text)">$19.99 a year</b> ($1.67 a month). <b style="color:var(--text)">First month free</b> on either. Cancel any time.</p>
+  </div>
+</div>
+<p class="note">US prices. The App Store shows yours, in your currency, before you subscribe.</p>
+
+<div class="group">
+  <h3>Train</h3>
+  <div class="table">
+    <div class="head"><span></span><span>Free</span><span>Pro</span></div>
+    <div class="row"><div class="what"><b>Guided workouts</b><span>One set at a time: the weight to use, rest timer, then the next set. Or the List view.</span></div><div class="cell"><span class="k">Free</span><span class="yes">✓</span></div><div class="cell"><span class="k">Pro</span><span class="yes">✓</span></div></div>
+    <div class="row"><div class="what"><b>Log any workout or activity</b><span>598 exercises; weights, bodyweight, timed and distance; warm-up, drop and failure sets, supersets, AMRAP, EMOM; runs, rides, swims, hikes, yoga and more activities.</span></div><div class="cell"><span class="k">Free</span><span class="yes">✓</span></div><div class="cell"><span class="k">Pro</span><span class="yes">✓</span></div></div>
+    <div class="row"><div class="what"><b>Suggested weights and reps</b><span>From last time, a step up when you hit every rep; weights that go up each set; Kill Muscle mode; rest presets.</span></div><div class="cell"><span class="k">Free</span><span class="yes">✓</span></div><div class="cell"><span class="k">Pro</span><span class="yes">✓</span></div></div>
+    <div class="row"><div class="what"><b>Log a past workout</b><span>Any day, a session or exercises, with the sets filled in.</span></div><div class="cell"><span class="k">Free</span><span class="yes">✓</span></div><div class="cell"><span class="k">Pro</span><span class="yes">✓</span></div></div>
+  </div>
+</div>
+
+<div class="group">
+  <h3>What to train today</h3>
+  <div class="table">
+    <div class="head"><span></span><span>Free</span><span>Pro</span></div>
+    <div class="row"><div class="what"><b>Today's workout, ready to start</b><span>On the first screen, for the kit you have today, with Pick another.</span></div><div class="cell"><span class="k">Free</span>Picked from your sessions: Full body A, B and C, taking turns, and the ones you built</div><div class="cell"><span class="k">Pro</span>Picked from every ready-made session, the body area you trained longest ago first</div></div>
+    <div class="row"><div class="what"><b>Ready-made sessions</b><span>Upper body, legs, push, pull, arms, chest, back, shoulders, core, HIIT, yoga, mobility and more, in versions for no equipment, dumbbells, kettlebell, bands, gym, jump rope, medicine ball and TRX.</span></div><div class="cell"><span class="k">Free</span>The 18 Full body ones, every kit. The others open as a preview.</div><div class="cell"><span class="k">Pro</span>All 54, and you can save any of them as your own</div></div>
+    <div class="row"><div class="what"><b>Sessions you build</b><span>Pick exercises, set sets and reps, save.</span></div><div class="cell"><span class="k">Free</span>Up to 3, on top of Full body A, B and C</div><div class="cell"><span class="k">Pro</span>As many as you like</div></div>
+  </div>
+</div>
+
+<div class="group">
+  <h3>Plans and programs</h3>
+  <div class="table">
+    <div class="head"><span></span><span>Free</span><span>Pro</span></div>
+    <div class="row"><div class="what"><b>Look at all 15 programs</b><span>Push / Pull / Legs, Full Body, Upper / Lower, a 4-week progression and more: what each one is, its sessions, and the week it would give you for your kit.</span></div><div class="cell"><span class="k">Free</span><span class="yes">✓</span></div><div class="cell"><span class="k">Pro</span><span class="yes">✓</span></div></div>
+    <div class="row"><div class="what"><b>Plan your week or month</b><span>Pick your days; Clocked fills each with the right session for your kit, and keeps the order if you miss one.</span></div><div class="cell"><span class="k">Free</span><span class="no">–</span></div><div class="cell"><span class="k">Pro</span><span class="yes">✓</span></div></div>
+    <div class="row"><div class="what"><b>Add a program to your plan</b><span>One tap puts it on its suggested days; your week shows each day's session by name.</span></div><div class="cell"><span class="k">Free</span><span class="no">–</span></div><div class="cell"><span class="k">Pro</span><span class="yes">✓</span></div></div>
+    <div class="row"><div class="what"><b>Build your own program</b><span>Choose the session for each day.</span></div><div class="cell"><span class="k">Free</span><span class="no">–</span></div><div class="cell"><span class="k">Pro</span><span class="yes">✓</span></div></div>
+    <div class="row"><div class="what"><b>Something else on a plan day</b><span>Pick another swaps today's planned session; your plan only moves on if you finish a workout.</span></div><div class="cell"><span class="k">Free</span><span class="no">–</span></div><div class="cell"><span class="k">Pro</span><span class="yes">✓</span></div></div>
+  </div>
+</div>
+
+<div class="group">
+  <h3>Progress</h3>
+  <div class="table">
+    <div class="head"><span></span><span>Free</span><span>Pro</span></div>
+    <div class="row"><div class="what"><b>History, records and your week</b><span>Every workout with its sets and calories, personal records, the days you trained this week and your streak.</span></div><div class="cell"><span class="k">Free</span><span class="yes">✓</span></div><div class="cell"><span class="k">Pro</span><span class="yes">✓</span></div></div>
+    <div class="row"><div class="what"><b>Share your progress</b><span>Today, this week, this month or this year as an image for TikTok, Instagram and YouTube, with a line you pick.</span></div><div class="cell"><span class="k">Free</span><span class="yes">✓</span></div><div class="cell"><span class="k">Pro</span><span class="yes">✓</span></div></div>
+    <div class="row"><div class="what"><b>Sets per muscle each week</b><span>How much work each body area got.</span></div><div class="cell"><span class="k">Free</span><span class="no">–</span></div><div class="cell"><span class="k">Pro</span><span class="yes">✓</span></div></div>
+    <div class="row"><div class="what"><b>Progress charts</b><span>Per exercise: estimated one-rep max, top weight, weight lifted, reps, time, distance; and your body weight.</span></div><div class="cell"><span class="k">Free</span><span class="no">–</span></div><div class="cell"><span class="k">Pro</span><span class="yes">✓</span></div></div>
+  </div>
+</div>
+
+<div class="group">
+  <h3>Apple</h3>
+  <div class="table">
+    <div class="head"><span></span><span>Free</span><span>Pro</span></div>
+    <div class="row"><div class="what"><b>Apple Health</b><span>Saves workouts, active calories and distance; reads your body weight for calorie estimates. Only with your permission.</span></div><div class="cell"><span class="k">Free</span><span class="yes">✓</span></div><div class="cell"><span class="k">Pro</span><span class="yes">✓</span></div></div>
+    <div class="row"><div class="what"><b>iCloud sync, backups and export</b><span>Your workouts on all your iPhones; back up to iCloud Drive, restore, or share as a CSV file.</span></div><div class="cell"><span class="k">Free</span><span class="yes">✓</span></div><div class="cell"><span class="k">Pro</span><span class="yes">✓</span></div></div>
+    <div class="row"><div class="what"><b>Shortcuts and Siri</b><span>"Start a workout in Clocked".</span></div><div class="cell"><span class="k">Free</span><span class="yes">✓</span></div><div class="cell"><span class="k">Pro</span><span class="yes">✓</span></div></div>
+    <div class="row"><div class="what"><b>Apple Watch app</b><span>Log sets from your wrist with live heart rate. Apple Watch Series 9 or later, SE (3rd generation), Ultra 2 or later.</span></div><div class="cell"><span class="k">Free</span><span class="no">–</span></div><div class="cell"><span class="k">Pro</span><span class="yes">✓</span></div></div>
+    <div class="row"><div class="what"><b>Widgets</b><span>This week on your Home Screen and Lock Screen.</span></div><div class="cell"><span class="k">Free</span><span class="no">–</span></div><div class="cell"><span class="k">Pro</span><span class="yes">✓</span></div></div>
+  </div>
+</div>
+
+<div class="card" style="margin-top:36px">
+<p style="margin:0">Free or Pro: no account, no ads, no tracking. Your workouts stay on your devices and in your own iCloud.</p>
+</div>
+
+<h2>About Clocked Pro</h2>
+<div class="faq">
+<details><summary>How does the free month work?</summary><p>New subscribers get the first month free on the yearly or the monthly plan. You'll see the price before you confirm. Cancel at least 24 hours before the month ends and you won't be charged.</p></details>
+<details><summary>How do I cancel?</summary><p>In iPhone Settings → your name → Subscriptions → Clocked, or in Clocked → Settings → Clocked Pro → Manage subscription. Pro stays until the end of the period you've paid for.</p></details>
+<details><summary>What happens to my data if Pro ends?</summary><p>Nothing is deleted. Every workout, record and session stays, and everything in the Free column keeps working. A plan you made waits until Pro comes back, and your Apple Watch, widgets and charts come back too.</p></details>
+<details><summary>Can I restore Pro on a new iPhone?</summary><p>Yes. Sign in with the same Apple Account, then Clocked → Settings → Clocked Pro → Restore purchases.</p></details>
+</div>
+
+<footer>Clocked is a workout log, not medical advice. Check with a doctor before starting a new exercise program, and stop if something hurts. Calorie numbers are estimates. See the <a href="terms.html">Terms of Use</a>.</footer>
+</main>
+</body>
+</html>
